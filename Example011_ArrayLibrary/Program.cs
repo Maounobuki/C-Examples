@@ -18,19 +18,20 @@ void PrintArray(int[] col)
      position++;
     }
 }
-int IndexOf (int[] collection, int find)
+int IndexOf(int[] collection, int find)
 {
     int count = collection.Length;
     int index = 0;
     int position = 0;
     while (index < count)
-    {
-        if(collection[index] == find)
+   
+       { if(collection[index] == find)
         {
             position = index;
             index++;
         }
         return position;
+       
     }
 }
 int[] array = new int[10];
